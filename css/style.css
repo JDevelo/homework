@@ -48,11 +48,23 @@ p {
     }
 }
 
+
+
+
+
+h2 {
+    text-align: center;
+}
+.h {
+    color: #bae1ff;
+    text-decoration: none;
+}
+
 .paragrah {
     position: relative;
     top: auto;
     animation-name: text;
-    animation-duration: 8s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
 }
 
