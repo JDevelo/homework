@@ -2,6 +2,19 @@ body {
     background-color: 	#36393e;
     font-family: sans-serif;
     color: white;
+    /* Gladly stole this part of the css in the body from https://www.geeksforgeeks.org/how-to-create-fade-in-effect-on-page-load-using-css/#:~:text=Use%20animation%20and%20transition%20property%20to%20create%20a,ease%2C%20the%20animation%20smoothly%20fades%20in%20the%20page.*/
+    animation: fadeInAnimation ease 8s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 h1 {
@@ -21,3 +34,4 @@ p {
     position: static;
 
 }
+
