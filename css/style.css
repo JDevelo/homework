@@ -1,8 +1,17 @@
 body {
     background-color: 	#36393e;
+    font-family: sans-serif;
 }
 
 h1 {
     color: white;
     text-align: center;
+}
+
+.date {
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    color: white;
 }
